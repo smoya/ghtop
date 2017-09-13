@@ -11,6 +11,16 @@ Features included:
 
 ## Installation
 
+### From docker:
+
+There is a Docker image called `smoya/ghtop`. In order to run the service, just do:
+
+```bash
+docker run --publish 8080:8080 smoya/ghtop:latest -gh-token=<github token>
+```
+
+### From source
+
 Ghtop requires Go 1.9 or later.
 ```bash
 go get -u github.com/smoya/ghtop
