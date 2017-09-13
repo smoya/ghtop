@@ -1,0 +1,5 @@
+build/*
+coverage*
+.idea
+ghtop
+vendor/*/
