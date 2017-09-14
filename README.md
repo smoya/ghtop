@@ -1,4 +1,5 @@
 # ghtop
+[![Build Status](https://travis-ci.org/smoya/ghtop.svg?branch=master)](https://travis-ci.org/smoya/ghtop)
 
 A simple Golang http service that lists the top Github contributors given a location.
 
